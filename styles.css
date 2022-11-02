@@ -2,22 +2,91 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links{
+    align-self: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
 }
 
 .section1{
     display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 16px;
+}
+.section1 a{
+    color: white;
 }
 
 .section2{
     display: flex;
-    border: 1px red solid;
     justify-content: space-between;
     flex-direction: column;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    margin: 0 5px;
+    padding: 16px;
+    align-items: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    flex-grow: 1;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 0;;
+    text-align: center;
+    overflow-wrap: break-word; 
+    gap: 10px;
+}
+
+.projects img{
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+.S2Title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+    padding: 36px;
+
+}
+
+#p_text{
+   flex-shrink: 1;
+    flex-grow: 1;
+    width: 300px;
 }
 
 .section3{
@@ -31,45 +100,6 @@ body{
     
     justify-content: space-between;
     
-}
-
-.projects{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px red solid;
-    margin: 0 5px;
-    padding: 16px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 16px;
-    width: 70%;
-}
-
-.project{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex: 0 1 0;
-    border: 1px red solid;
-    text-align: center;
-    overflow-wrap: break-word;
-    
-    
-}
-
-.projects img{
-    border-radius: 5%;
-    width: 200px;
-    height: 200px;
-}
-
-#p_text{
-   flex-shrink: 1;
-    flex-grow: 1;
-    border: 1px green solid;
-    width: 300px;
 }
 
 .footer{
