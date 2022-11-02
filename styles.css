@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
 }
 
 .header{
@@ -10,10 +9,11 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     height: 50px;
-    width: 100%;
     margin: 0;
-    padding: 10px;
+    padding: 36px;
+    align-items: center;
 }
+
 
 .title{
     color: white;
@@ -23,18 +23,25 @@ body{
 
 .links{
     align-self: center;
+    display: flex;
+    border: 1px red solid;
+    margin: 12px;
+    gap: 32px;
+    justify-content: space-between;
 }
 
 .links a{
     text-decoration: none;
     color: white;
+    font-size: 24px;
 }
 
 .section1{
     display: flex;
     background-color: #1f2937;
+    background-size: cover;
     color: white;
-    padding: 16px;
+    padding: 0px;
 }
 .section1 a{
     color: white;
