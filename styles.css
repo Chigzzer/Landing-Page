@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    background-color: #1f2937;
+    background-color: darkslategray;
     height: 50px;
     margin: 0;
     padding: 12px;
@@ -44,7 +45,7 @@ body{
 .section1
 {
     display: flex;
-    background-color: #1f2937;
+    background-color: darkslategray;
     background-size: cover;
     justify-content: center;
 }
@@ -69,15 +70,17 @@ body{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: center;
-    flex: 0 1 300px;
+    align-items: flex-start;
+    flex: 0 1 auto;
     gap: 5px;
+    width: 400px;
 }
 
 .s1_title{
     font-size: 48px;
     font-weight:900;
     color: #f9faf8;
+    flex-grow: 1;
 }
 
 .s1_text{
@@ -95,7 +98,7 @@ body{
 .projects{
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: center ;
     margin: 0 5px;
     padding: 16px;
     align-items: flex-start;
@@ -103,6 +106,10 @@ body{
     flex-wrap: wrap;
     gap: 16px;
     flex-grow: 1;
+}
+
+.project_pair{
+    display: flex;
 }
 
 .project{
@@ -141,9 +148,11 @@ body{
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 16px;
-    margin-bottom: 24px;;
+    padding-bottom: 24px;
     height: 400px;
     align-items: center;
+    background-color: darkslategrey;
+    color: white;
 }
 
 .section3_content{
@@ -155,7 +164,6 @@ body{
 }
 
 .section3 .title{
-    color: black;
     text-align: center;
     font-size: 48px;;
 }
@@ -169,6 +177,8 @@ body{
     justify-content: center;
     gap: 48px;  
     align-items: center;
+    background-color: #e5e7eb;
+    padding: 32px;
 }
 
 .section4 form{
@@ -194,7 +204,7 @@ body{
 }
 
 .s4_title{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     width: 300px;
     text-align: center;
@@ -204,5 +214,7 @@ body{
     display: flex;
     justify-content: flex-end;
     padding-right: 24px;
+    background-color: darkslategray;
+    color:white;
 }
 
