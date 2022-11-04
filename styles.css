@@ -110,12 +110,13 @@ body{
 
 .project_pair{
     display: flex;
+    gap: 16px;
 }
 
 .project{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex: 0 1 0;;
     text-align: center;
@@ -138,8 +139,9 @@ body{
 
 #p_text{
    flex-shrink: 1;
-    flex-grow: 1;
-    width: 300px;
+    flex-grow: 0;
+    width: 200px;
+    font-size: 16px;
 }
 
 .section3{
@@ -170,6 +172,7 @@ body{
 
 .section3 .text{
     text-align: center;
+    font-size: 18px;
 }
 
 .section4{
